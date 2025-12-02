@@ -3,17 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site</title>
+  <title>Fotossíntese - Explicação Biológica</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <h1>Bem-vindo ao meu site!</h1>
+    <h1>🌿 Fotossíntese</h1>
+    <p>Como as plantas produzem seu próprio alimento</p>
   </header>
-  <section>
-    <p>Este é um site simples, criado para aprender como usar o GitHub.</p>
-    <button onclick="exibirMensagem()">Clique Aqui</button>
+
+  <section class="conteudo">
+    <h2>O que é Fotossíntese?</h2>
+    <p>
+      A fotossíntese é o processo pelo qual as plantas, algas e algumas bactérias 
+      convertem energia luminosa em energia química, produzindo glicose e liberando oxigênio.
+    </p>
+
+    <h2>Como funciona?</h2>
+    <ul>
+      <li>A planta absorve luz solar através da clorofila;</li>
+      <li>Usa água (H₂O) absorvida pelas raízes;</li>
+      <li>Usa dióxido de carbono (CO₂) presente no ar;</li>
+      <li>Produz glicose (energia) e libera oxigênio (O₂).</li>
+    </ul>
+
+    <button onclick="mostrarEquacao()">Mostrar a equação da fotossíntese</button>
+    <p id="equacao" class="oculto"></p>
   </section>
+
+  <footer>
+    <p>Site educacional criado no GitHub Pages © 2025</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
